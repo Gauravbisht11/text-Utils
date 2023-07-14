@@ -77,7 +77,7 @@ function App() {
             <Route exact path="/about" element={<About changeIt={changeIt} mode={mode} Enable={Enable} />}>
 
             </Route>
-            <Route exact path="/home" element={<TextForm heading="Enter the Text to Perform Action" showalert={showalert} />}>
+            <Route exact path="/" element={<TextForm heading="Enter the Text to Perform Action" showalert={showalert} />}>
 
 
             </Route>
